@@ -1,0 +1,43 @@
+/* Estilo para el fondo de pantalla */
+.root {
+    -fx-background-color: #333; /* Establece el color de fondo del nodo ra�z (root) a un tono de gris oscuro (#333) */
+}
+
+/* Estilo para el formulario de inicio de sesi�n */
+.vbox {
+    -fx-background-color: #fff; /* Establece el color de fondo del formulario a blanco (#fff) */
+    -fx-background-radius: 10;  /* Establece el radio de las esquinas del formulario a 10 p�xeles */
+    -fx-padding: 20;            /* Establece el relleno interno del formulario a 20 p�xeles */
+    -fx-spacing: 10;            /* Establece el espacio entre elementos del formulario a 10 p�xeles */
+    -fx-alignment: center;      /* Alinea los elementos del formulario al centro */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 10, 0, 0, 0); /* Aplica una sombra al formulario con efecto de "dropshadow" */
+}
+
+/* Estilo para los campos de entrada */
+#username-field, #password-field {
+    -fx-pref-width: 200;    /* Establece el ancho preferido de los campos de entrada a 200 p�xeles */
+    -fx-font-size: 14;      /* Establece el tama�o de fuente de los campos de entrada a 14 puntos */
+}
+
+/* Estilo para el bot�n */
+#login-button {
+    -fx-background-color: #4CAF50; /* Establece el color de fondo del bot�n a verde (#4CAF50) */
+    -fx-text-fill: white;          /* Establece el color del texto del bot�n a blanco */
+}
+
+/* Estilo para el bot�n al pasar el cursor */
+#login-button.hover-button:hover {
+    -fx-background-color: #333333; /* Cambia el color de fondo del bot�n a un tono de gris oscuro (#333333) */
+    -fx-text-fill: white;          /* Cambia el color del texto del bot�n a blanco cuando el cursor se encuentra sobre �l */
+}
+
+.tab-pane {
+    -fx-background-image: url("file:///C:/Users/samue/OneDrive/Documentos/NetBeansProjects/PROYECTO_AWT_SWING_JAVAFX/PROYECTO_AWT_SWING_JAVAFX/GUI_JavaFX_JavaAWT_JavaSwing/src/Controlador/Fondo.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+}
+
+.tab-header-background {
+    -fx-background-color: transparent;
+}
+
